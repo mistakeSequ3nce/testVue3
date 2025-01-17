@@ -1,9 +1,9 @@
 <script setup>
-import { generateTimelineItems } from '@/function';
+
 import TimelineItem from '@/components/TimelineItem.vue';
 
+defineProps (['timelineItems'])
 
-const timelineItems = generateTimelineItems ()
 </script>
 
 <template>
