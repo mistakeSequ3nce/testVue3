@@ -1,6 +1,5 @@
 import { PAGE_ACTIVITIES, PAGE_PROGRESS, PAGE_TIMELINE } from './constants'
 
-
 export function normalizePageHash() {
   const hash = window.location.hash.slice(1)
 
