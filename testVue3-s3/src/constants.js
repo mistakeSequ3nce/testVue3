@@ -9,3 +9,5 @@ export const NAV_ITEMS = {
 }
 
 import { ClockIcon, ListBulletIcon, ChartBarIcon } from '@heroicons/vue/24/outline'
+
+export const HOURS_IN_DAY = 24
